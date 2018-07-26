@@ -20,7 +20,7 @@ const key = e.key;
 
 if (key === codes[i]){
   i++;
-  
+  //  hahahaha  thanks it worked
 }
 else{
   i = 0;
