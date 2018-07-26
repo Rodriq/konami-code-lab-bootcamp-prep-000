@@ -17,15 +17,18 @@ function init() {
 var body = document.querySelector('body');
 body.addEventListener('keydown', function(e){
 const key = e.key;
+
 if (key === codes[i]){
   i++;
-  if (i === codes.length){
-    alert('me');
-  }
-}
-else{
   
 }
+else{
+  i = 0;
+}
+if (i === codes.length){
+    alert('me');
+    i=0
+  }
 })
 }
 
