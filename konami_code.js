@@ -20,9 +20,7 @@ const key = e.key;
 
 if (key === codes[i]){
   i++;
-  //  hahahaha  thanks it worked just the order ya thats cool.
-  //Thanks it's night here 
-  //thanks 
+
 }
 else{
   i = 0;
