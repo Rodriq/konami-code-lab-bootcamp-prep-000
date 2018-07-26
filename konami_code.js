@@ -24,7 +24,6 @@ if (key === codes[i]){
   }
 }
 else{
- // alert('anything')
   init()
 }
 })
