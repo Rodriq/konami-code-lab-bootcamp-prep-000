@@ -23,7 +23,7 @@ if (key === codes[i]){
     alert('me');
   }
 }
-if (key !== codes.values()){
+else{
  // alert('anything')
   init()
 }
