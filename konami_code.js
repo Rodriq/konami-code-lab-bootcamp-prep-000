@@ -24,7 +24,7 @@ if (key === codes[i]){
   }
 }
 if (key !== codes.values()){
-  alert('anything')
+ // alert('anything')
   init()
 }
 })
