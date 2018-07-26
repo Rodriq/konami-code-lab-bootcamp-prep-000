@@ -24,7 +24,7 @@ if (key === codes[i]){
   }
 }
 else{
-  init()
+  
 }
 })
 }
