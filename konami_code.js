@@ -18,8 +18,10 @@ var body = document.querySelector('body');
 body.addEventListener('keydown', function(e){
 const key = e.key;
 if (key === codes[i]){
-  alert('me');
   i++;
+  if (i === codes.length){
+    alert('me');
+  }
 }
 if (key !== codes.values()){
   alert('anything')
